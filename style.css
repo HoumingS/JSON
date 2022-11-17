@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+
+*{
+  background-color: black;
+  font-family: 'Righteous', cursive;
+}
+h1{
+
+  text-align:center;
+  color:#fff;
+  font-size: 100px;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+
+#albums{
+  display:flex;
+}
+.coverContainer{
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  width: 100%;
+}
+.cover{
+  width:220px;
+  height:220px;
+
+}
+.item{
+  margin:39px;
+
+}
+.albumTitle{
+  text-align:center;
+  font-size: 50px;
+  color:#F590C8;
+  display:none;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+
+.albumDate{
+  text-align:center;
+  font-size: 30px;
+  color:#F590C8;
+  display: none;
+}
+
+.songTitle{
+  text-align:center;
+  font-size: 30px;
+  color:#F590C8;
+  display: none;
+}
